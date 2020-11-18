@@ -15,7 +15,7 @@ function App() {
   return (
     <HashRouter>
       <Navigation />
-      <Route path="/" exact={true} component={Friends} key={1} />
+      <Route path="/" exact={true} component={Friends} />
       <Route path="/profile" component={Profile} />
       <Route path="/chats" component={Chats} />
       <Route path="/chat" component={Chat} />

@@ -50,7 +50,7 @@ function More() {
                 <section>
                     <header>
                         <h2>Plus Friends</h2>
-                        <span><i class="fas fa-info-circle"></i>Learn More</span>
+                        <span><i className="fas fa-info-circle"></i>Learn More</span>
                     </header>
                     <ul>
                         <li><a href="#"><i className="fas fa-utensils"></i><span>Order</span></a></li>

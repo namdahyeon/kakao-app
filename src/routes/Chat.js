@@ -47,7 +47,7 @@ function Chat() {
                 </div>        
             </main>
             <section className="chat_s">
-                <i class="fas fa-plus"></i>
+                <i className="fas fa-plus"></i>
                 <div className="keybord">
                     <input type="text" placeholder="" />
                     <i className="far fa-smile"></i>

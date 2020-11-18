@@ -81,7 +81,8 @@ function Friends() {
                         <ul>
                             {names.map((name, idx) => (
                                 <FriendItem
-                                id= {name.id}
+                                key = {idx}
+                                id = {name.id}
                                 name = {name.name}
                                 comment = {comments[idx].name}
                                 img = {ImgJSON[idx].img}
