@@ -1,13 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import {Link} from 'react-router-dom';
-import './Friends.css';
-import './Reset.css';
+import { render } from '@testing-library/react';
+import React, {useEffect, useState} from 'react';
 import axios from 'axios';
+import {Link} from 'react-router-dom';
 import FriendItem from '../components/FriendItem';
+
 import profile from '../images/profile.jpg';
 import user_profile from '../images/user_profile.jpg';
-import img1 from '../images/empty.jpg';
 import ImgJSON from '../data/ImgJSON.json';
+
+import './Friends.css';
+import './Reset.css';
+
+
+
 
 function Friends() {
 
