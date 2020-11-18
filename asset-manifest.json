@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/github.io/kakao-app/static/css/main.0456436c.chunk.css",
+    "main.js": "/github.io/kakao-app/static/js/main.160c5693.chunk.js",
+    "main.js.map": "/github.io/kakao-app/static/js/main.160c5693.chunk.js.map",
+    "runtime-main.js": "/github.io/kakao-app/static/js/runtime-main.34fc6baf.js",
+    "runtime-main.js.map": "/github.io/kakao-app/static/js/runtime-main.34fc6baf.js.map",
+    "static/js/2.179fa4a9.chunk.js": "/github.io/kakao-app/static/js/2.179fa4a9.chunk.js",
+    "static/js/2.179fa4a9.chunk.js.map": "/github.io/kakao-app/static/js/2.179fa4a9.chunk.js.map",
+    "index.html": "/github.io/kakao-app/index.html",
+    "static/css/main.0456436c.chunk.css.map": "/github.io/kakao-app/static/css/main.0456436c.chunk.css.map",
+    "static/js/2.179fa4a9.chunk.js.LICENSE.txt": "/github.io/kakao-app/static/js/2.179fa4a9.chunk.js.LICENSE.txt",
+    "static/media/Profile.css": "/github.io/kakao-app/static/media/bg_default.82687b4e.png",
+    "static/media/kakaofriends.84375bb9.png": "/github.io/kakao-app/static/media/kakaofriends.84375bb9.png",
+    "static/media/kakaostory.572f3ce5.png": "/github.io/kakao-app/static/media/kakaostory.572f3ce5.png",
+    "static/media/path.7d00edf7.png": "/github.io/kakao-app/static/media/path.7d00edf7.png",
+    "static/media/profile.e6a716ce.jpg": "/github.io/kakao-app/static/media/profile.e6a716ce.jpg",
+    "static/media/user_profile.02b7df68.jpg": "/github.io/kakao-app/static/media/user_profile.02b7df68.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34fc6baf.js",
+    "static/js/2.179fa4a9.chunk.js",
+    "static/css/main.0456436c.chunk.css",
+    "static/js/main.160c5693.chunk.js"
+  ]
+}
