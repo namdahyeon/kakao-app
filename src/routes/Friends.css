@@ -1,0 +1,47 @@
+/* main.css */
+/* layout */
+.top_header_1 { z-index:10; position:fixed; top:0; width:100%; box-sizing:border-box; padding:5px 10px 15px; background-color:#523737; }
+    .top_header_1>.header_T { display:flex; justify-content:space-between; align-items:center; font-size:12px; margin-bottom:15px; }
+    .top_header_1>.header_B { display:flex; justify-content:space-between; align-items:center; margin:0 10px; font-size:16px; }
+main.friends { padding:64px 0 55px; background-color:#fff; }
+    main.friends> .search-bar { position:relative; padding:15px 25px; }
+
+
+/* header */
+.top_header_1 i { color:#fff; }
+.top_header_1 span { color:#fff; }
+
+.top_header_1 .header_T>ul { display:flex; flex:1; }
+.top_header_1 .header_T>ul li { margin-right:4px; }
+.header_T>ul li>span { margin-right:3px; }
+.top_header_1 .header_T>ul li:last-of-type { margin-right:0; }
+.top_header_1 .header_T>span { flex:1; text-align:center; }
+.top_header_1 .header_T>ul:last-of-type { justify-content:flex-end; }
+
+.top_header_1 .header_B>span { flex:1; }
+.top_header_1 .header_B>span:first-of-type { opacity:.5; }
+.top_header_1 .header_B>span:last-of-type { text-align:center; }
+.top_header_1 .header_B>span>strong { margin-left:4px; color:yellow; }
+.top_header_1 .header_B>i { flex:1; text-align:right; }
+
+
+/* main */
+/* search-bar */
+main.friends .search-bar>i { position:absolute; top:50%; margin-top:-7px; left:40px; color:#bbb; }
+main.friends .search-bar>input { width:calc(100% - 14px); padding:5px 7px; border:0; border-radius:5px; background-color:#f1f2f3; text-align:center; }
+
+/* section */
+main.friends section>header { padding:10px 15px; border-top:solid 1px #ebebeb; border-bottom:solid 1px #ebebeb; }
+main.friends section>header h6 { color:#b4b4b4; font-weight:normal; }
+
+main.friends section> .my_list ul li { display:flex; align-items:center; padding:10px 15px; }
+main.friends section> .my_list ul li a { width:100%; }
+main.friends section> .my_list ul li img { width:40px; border-radius:50%; margin-right:15px; vertical-align:middle; }
+main.friends section> .my_list ul li span { flex:1; margin-right:10px; }
+main.friends section> .my_list ul li p { justify-content:flex-end; padding:10px; border-radius:5px; background-color:#f0f0f0; font-size:10px; color:#939393; }
+
+main.friends section> .list ul li { display:flex; align-items:center; padding:10px 15px; }
+main.friends section> .list ul li span { width:40px; height:40px; border-radius:50%; margin-right:15px; vertical-align:middle; overflow:hidden; }
+main.friends section> .list ul li span>img { width:100%; }
+main.friends section> .list ul li h3 { flex:1; margin-right:10px; }
+main.friends section> .list ul li p { justify-content:flex-end; max-width:50%; padding:10px; border-radius:5px; background-color:#f0f0f0; font-size:10px; color:#939393; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
