@@ -20,7 +20,7 @@ function Chat() {
                     </ul>
                 </div>
                 <div className="header_B">
-                    <span><a href="chats.html"><i className="fas fa-chevron-left"></i></a></span>
+                    <span><a href="Chats.js"><i className="fas fa-chevron-left"></i></a></span>
                     <span>Friend Name</span>
                     <span><i className="fas fa-search"></i><i className="fas fa-bars"></i></span>
                 </div>

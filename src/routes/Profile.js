@@ -20,7 +20,7 @@ function Profile() {
                     </ul>
                 </div>
                 <div className="header_B">
-                    <span><a href="index.html"><i className="fas fa-times"></i></a></span>
+                    <span><a href="Friends.js"><i className="fas fa-times"></i></a></span>
                     <span></span>
                     <i className="fas fa-user"></i>
                 </div>
