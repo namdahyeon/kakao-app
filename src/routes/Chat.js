@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Chat.css';
 import './Reset.css';
 import user_profile from '../images/user_profile.jpg';
@@ -20,7 +21,7 @@ function Chat() {
                     </ul>
                 </div>
                 <div className="header_B">
-                    <span><a href="Chats.js"><i className="fas fa-chevron-left"></i></a></span>
+                    <span><Link to="/Chats"><i className="fas fa-chevron-left"></i></Link></span>
                     <span>Friend Name</span>
                     <span><i className="fas fa-search"></i><i className="fas fa-bars"></i></span>
                 </div>

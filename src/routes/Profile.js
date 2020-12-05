@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Profile.css';
 import './Reset.css';
 import profile from '../images/profile.jpg';
@@ -20,7 +21,7 @@ function Profile() {
                     </ul>
                 </div>
                 <div className="header_B">
-                    <span><a href="Friends.js"><i className="fas fa-times"></i></a></span>
+                    <span><Link to="/Friends"><i className="fas fa-times"></i></Link></span>
                     <span></span>
                     <i className="fas fa-user"></i>
                 </div>
